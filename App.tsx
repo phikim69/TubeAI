@@ -1,4 +1,4 @@
-
+op
 import React, { useState } from 'react';
 import { InputForm } from './components/InputForm';
 import { TitleList } from './components/TitleList';
@@ -366,19 +366,16 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 py-8 text-center space-y-5">
             <h3 className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400 flex items-center justify-center gap-2">
                 <Youtube className="text-red-500 fill-red-500" />
-                Theodore Nguyen In Down Under
+                Developed by Phi Kim
             </h3>
             
             <div className="flex flex-wrap justify-center gap-6 text-sm">
-                <a href="https://zalo.me/g/gdrgcl418" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors">
+                <a href="https://zalo.me/phikim9199" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors">
                     <span className="p-1.5 bg-gray-800 rounded-full group-hover:bg-blue-500/20"><MessageCircle size={14} /></span> 
-                    Zalo Group
+                    Zalo
                 </a>
-                <a href="https://t.me/+XVARKXabk7NiZDc1" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors">
-                    <span className="p-1.5 bg-gray-800 rounded-full group-hover:bg-blue-500/20"><Send size={14} /></span>
-                    Telegram
-                </a>
-                <a href="https://www.facebook.com/share/1AV97bpmTk/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-gray-400 hover:text-blue-600 transition-colors">
+
+                <a href="https://www.facebook.com/giadinhvip.net" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-gray-400 hover:text-blue-600 transition-colors">
                     <span className="p-1.5 bg-gray-800 rounded-full group-hover:bg-blue-600/20"><Facebook size={14} /></span>
                     Facebook
                 </a>
